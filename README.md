@@ -1,5 +1,7 @@
 # FCamaraSPAProductsApplication.API
-FCamara Full stack developer test: API
+FCamara Full stack developer test: API.
+
+This project demonstrated how to use ASP.NET web API token based authentication to access content that require authorization.
 
 ## It was developed using
   - Visual Studio 2015 Community Edition / ASPNET Web application
