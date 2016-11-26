@@ -13,6 +13,6 @@ namespace FCamaraSPAProductsApplication.API
 
     public class ProductContext : DbContext
     {
-        public DbSet<ProductModel> Product { get; set; }
+        public DbSet<ProductModel> Products { get; set; }
     }
 }

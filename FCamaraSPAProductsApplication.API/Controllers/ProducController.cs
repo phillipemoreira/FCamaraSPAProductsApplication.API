@@ -1,6 +1,5 @@
 ﻿using System.Linq;
 using System.Web.Http;
-using System.Web.Http.Description;
 
 namespace FCamaraSPAProductsApplication.API.Controllers
 {
@@ -14,22 +13,7 @@ namespace FCamaraSPAProductsApplication.API.Controllers
         [Route("")]
         public IQueryable<ProductModel> GetProduct()
         {
-            return db.Product;
-        }
-
-        // GET: api/Products/5
-        [Authorize]
-        [Route("")]
-        [ResponseType(typeof(ProductModel))]
-        public IHttpActionResult GetProductModel(string id)
-        {
-            ProductModel productModel = db.Product.Find(id);
-            if (productModel == null)
-            {
-                return NotFound();
-            }
-
-            return Ok(productModel);
+            return db.Products;
         }
     }
 }

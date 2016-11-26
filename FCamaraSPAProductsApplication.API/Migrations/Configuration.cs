@@ -11,7 +11,7 @@
 
         protected override void Seed(ProductContext context)
         {
-            context.Product.AddOrUpdate(
+            context.Products.AddOrUpdate(
               p => p.ProdId,
               new ProductModel { ProdId = "001", Name = "Bolacha", Price = 2.40 },
               new ProductModel { ProdId = "002", Name = "Salame", Price = 15.40 },
