@@ -1,5 +1,5 @@
-# FCamaraSPAProductsApplication.API
-FCamara Full stack developer test: API.
+# SimpleProductsAppWithOauth.API
+Simple WebApi for a products application that requires OAtuth Authentication.
 
 This project demonstrated how to use ASP.NET web API token based authentication to access content that require authorization.
 
